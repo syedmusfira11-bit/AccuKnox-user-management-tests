@@ -1,0 +1,25 @@
+1️⃣ Install Dependencies
+pip install psutil
+
+2️⃣ Run Script
+python system_health_monitor.py
+
+3️⃣ Check Log File
+
+After running, check:
+
+cat system_health.log
+
+
+You’ll see entries like:
+
+[2025-10-22 10:35:00] CPU Usage: 25%
+[2025-10-22 10:35:00] Memory Usage: 68%
+[2025-10-22 10:35:00] Disk Usage: 45%
+[2025-10-22 10:35:00] Running Processes: 212
+--------------------------------------------------
+
+
+If thresholds are exceeded:
+
+ALERT: High CPU usage detected: 91%
