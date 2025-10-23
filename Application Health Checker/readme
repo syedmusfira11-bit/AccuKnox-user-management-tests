@@ -1,0 +1,9 @@
+# AccuKnox Practical Assessment - Problem Statement 2
+
+## 🩺 Objective 1: System Health Monitoring Script
+This Python script monitors CPU, Memory, Disk usage, and running processes.  
+If thresholds are exceeded, alerts are logged to both console and a log file.
+
+### Run:
+```bash
+python3 system_health_monitor.py
